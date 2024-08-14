@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <nav className="bg-white flex justify-between items-center">
+        <nav className="bg-white pb-[70px] flex justify-between items-center">
             <div className='mt-[55px] ml-[100px]'>
                 <a href="/"><img src="/Sphere.png" width="121.08px" height="19.68px" alt="Logo" /></a>
                 <svg className='-mt-[31px] ml-[113px]' xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 19 18" fill="none">
@@ -22,8 +22,8 @@ function Navbar() {
                         Sign Up Now
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
-                        <path d="M3.75 9.5H14.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M9 4.25L14.25 9.5L9 14.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M3.75 9.5H14.25" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M9 4.25L14.25 9.5L9 14.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </a>
             </div>

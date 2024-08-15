@@ -14,8 +14,8 @@ function Header() {
                         Lorem ipsum dolor sit amet consectetur. <br /> Eleifend nec morbi tellus vitae leo nunc.
                     </p>
                     <div className='flex items-center mt-[50px] mb-[63px]'>
-                        <img className='w-40 h-40' src="/Group 136.png" alt="Imagen de celular" />
-                        <p className='text-black text-[33px] ml-[25px] font-semibold leading-10'>
+                        <img className='w-40 h-40 mb-[63px]' src="/Group 136.png" alt="Imagen de celular" />
+                        <p className='text-black text-[33px] mb-[63px] ml-[25px] font-semibold leading-10'>
                             Xiphone 14 <br /> Edition
                         </p>
                     </div>

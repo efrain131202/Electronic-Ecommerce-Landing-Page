@@ -12,6 +12,13 @@ const { title } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="preload"
+			href="/fonts/Prompt-Regular.ttf"
+			as="font"
+			type="font/ttf"
+			crossorigin
+		/>
 		<link rel="icon" type="image/svg+xml" href="/Sphere.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
@@ -22,12 +29,15 @@ const { title } = Astro.props;
 </html>
 <style is:global>
 	@font-face {
-	  font-family: primaria;
-	  src: url("/fonts/Prompt-Regular.ttf") format("truetype");
+		font-family: primaria;
+		src:
+			url("/fonts/Prompt-Regular.woff2") format("woff2"),
+			url("/fonts/Prompt-Regular.ttf") format("truetype");
+		font-display: swap;
 	}
-  
+
 	html {
-	  font-family: primaria, sans-serif;
-	  scroll-behavior: smooth;
+		font-family: primaria, sans-serif;
+		scroll-behavior: smooth;
 	}
-  </style>
+</style>

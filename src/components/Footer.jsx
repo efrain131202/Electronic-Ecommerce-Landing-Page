@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="lg:w-2/5">
                         <div>
                             <a href="#">
-                                <img className="w-auto h-7" src="/logo.png" alt="Sphere" />
+                            <img src="/logo.png" alt="Sphere" width="121" height="20"/>
                             </a>
                             <p className="max-w-sm text-black text-lg font-normal leading-7 mt-[55px]">
                                 Lorem ipsum dolor sit amet consectetur. <br /> Eleifend nec morbi tellus vitae leo nunc.

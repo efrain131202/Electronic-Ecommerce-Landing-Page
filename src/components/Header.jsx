@@ -16,14 +16,14 @@ function Header() {
                     <div className='flex flex-col md:flex-row items-center mt-[50px] mb-[63px]'>
                         <img
                             className='w-28 h-28 mb-5 md:mb-0'
-                            src="/Group 136.png"
-                            srcset="/Group 136.png 1x, /Group 136@2x.png 2x, /Group 136@3x.png 3x"
+                            src="/Group 136.svg"
+                            srcset="/Group 136.svg 1x, /Group 136.svg 2x, /Group 136.svg 3x"
                             alt="Imagen de celular"
                             width="168"
                             height="168"
                             loading="lazy"
                         />
-                        <p className='text-black text-[33px] md:mb-[63px] md:ml-[25px] font-semibold leading-10'>
+                        <p className='text-black text-[33px] md:mb-[5px] md:ml-[25px] font-semibold leading-10'>
                             Xiphone 14 <br /> Edition
                         </p>
                     </div>
